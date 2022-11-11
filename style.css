@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css?family=DM Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body{
+    background-color: #043873;
+}
+.titulo{
+    color:white;
+    font-family: 'Inter';
+    text-align: center;
+    font-size: 32px;
+}
+.container{
+    background-image: url('img/mobile/Element.png');
+    padding-bottom: 80px;
+}
+.titulo2{
+    color:#212529;
+    font-family: 'Inter';
+    text-align: center;
+    font-size: 32px;
+    padding-top:74px;
+}
+.container2{
+    background-color: white;
+    width:100vw;
+    margin-left:-8px;
+}
+.texto{
+    color:white;
+    font-family: 'Inter';
+    text-align: center;
+    font-size: 18px;
+    margin-right: 16px;
+    margin-left: 16px;
+
+}
+.ft-tog{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+.texto2{
+    color:#212529;
+    font-family: 'Inter';
+    text-align: center;
+    font-size: 18px;
+    margin-right: 16px;
+    margin-left: 16px;
+    line-height: 30px;
+
+}
+.titulo-desktop{
+    display:none;
+    font-size: 64px;
+
+}
+.titulo-tablet{
+    display:none;
+    font-size: 54px;
+
+}
+.titulo2-desktop{
+    display:none;
+    font-size: 64px;
+
+}
+.titulo2-tablet{
+    display:none;
+    font-size: 54px;
+
+}
+.btn-login{
+    color:#043873;
+    background-color: #FFE492;
+    padding-top:18.5px;
+    padding-bottom:18.5px;
+    padding-left:40px;
+    padding-right:40px;
+    font-family: 'Inter';
+    font-size: 18px;
+    border:none;
+    border-radius:8px;
+    margin-left: 65px;
+    margin-right: 24px;
+}
+.btn-try{
+    color:white;
+    background-color: #4F9CF9;
+    padding-top:18.5px;
+    padding-bottom:18.5px;
+    padding-left:40px;
+    padding-right:40px;
+    font-family: 'Inter';
+    font-size: 18px;
+    border:none;
+    border-radius:8px;
+}
+.div-btn-mobile{
+    display:flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+.div-btn-mobile2{
+    display:flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+.div_header{
+    display:flex;
+    justify-content: space-between;
+    padding:16px;
+}
+.menu a{
+    color:white;
+    font-size: 18px;
+    font-family:'DM Sans';
+    text-decoration: none;
+    padding-bottom: 10px;;
+}
+.div-ft-tog{
+    display: none;
+}
+@media only screen and (min-width: 769px) {
+    .hum-menu {
+    display:none;
+  }
+}
+@media only screen and (max-width: 769px) {
+    .menu {
+    display:none;
+  }
+}
+@media only screen and (min-width: 321px) {
+    .div_header {
+        padding:20px;
+        justify-content: space-around;
+    }
+    .titulo-mobile{
+        display:none;
+    }
+    .titulo-tablet{
+        display: contents;
+    }
+}
+@media only screen and (min-width: 769px) {
+    .titulo-mobile{
+        display:none;
+    }
+    .titulo-tablet{
+        display: none;
+    }
+    .titulo-desktop{
+        display: contents;
+    }
+    .texto{
+        text-align: left;
+        margin-left: 0px;
+    }
+    .titulo{
+        text-align: left;
+        margin-top: 200px;
+    }
+    .container{
+        margin-left:22px;
+    }
+    .div-btn-mobile{
+        justify-content:flex-start;
+        
+    }
+}
+@media only screen and (min-width: 321px) {
+    .div_header {
+        padding:20px;
+        justify-content: space-around;
+    }
+    .titulo2-mobile{
+        display:none;
+    }
+    .titulo2-tablet{
+        display: contents;
+    }
+}
+@media only screen and (min-width: 769px) {
+    .titulo2-mobile{
+        display:none;
+    }
+    .titulo2-tablet{
+        display: none;
+    }
+    .titulo2-desktop{
+        display: contents;
+    }
+    .texto2{
+        text-align: left;
+        margin-left: 0px;
+        margin-bottom: 100px;;
+    }
+    .titulo2{
+        text-align: left;
+        margin-top: 50px;
+    }
+    .container2{
+        display: flex;
+        padding-top:100px;
+        padding-left: 50px;
+
+    }
+    .ft-tog{
+        display:none;
+    }
+    .div-btn-mobile2{
+        display: contents;
+        justify-content:flex-start;
+        margin-top: 200px;
+        
+    }
+    .div-ft-tog{
+        display: contents;
+    }
+
+    .div-lado{
+        margin-left:50px;
+    }
+}
