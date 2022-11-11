@@ -25,6 +25,7 @@ body{
     background-color: white;
     width:100vw;
     margin-left:-8px;
+    padding-bottom: 50px;
 }
 .texto{
     color:white;
@@ -121,6 +122,20 @@ body{
 .div-ft-tog{
     display: none;
 }
+.rodape{
+    font-family: 'Inter';
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+}
+.termos{
+    margin-bottom: 20px;
+}
+.social-div{
+    display: none;
+}
 @media only screen and (min-width: 769px) {
     .hum-menu {
     display:none;
@@ -132,6 +147,11 @@ body{
   }
 }
 @media only screen and (min-width: 321px) {
+    .rodape{
+        display: flex;
+        justify-content: space-around;
+        border-bottom: 1px solid gray;
+    }
     .div_header {
         padding:20px;
         justify-content: space-around;
@@ -204,6 +224,7 @@ body{
         display: flex;
         padding-top:100px;
         padding-left: 50px;
+        padding-bottom: 50px;
 
     }
     .ft-tog{
@@ -221,5 +242,24 @@ body{
 
     .div-lado{
         margin-left:50px;
+    }
+    .social-div{
+        display: contents;
+        position:relative;
+        float:right;
+        padding-bottom:-200px;
+    }
+    .social{
+        margin-top: 1.6%;
+        margin-left: 36%;
+    }
+    .rodape{
+        position:relative;
+        float:left;
+        width:50%;
+        border-bottom: none;
+    }
+    .foots{
+        width: 100vw;
     }
 }
